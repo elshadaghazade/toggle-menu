@@ -1,0 +1,16 @@
+#menu ul {
+    display: none;
+    list-style: none;
+}
+
+#menu ul li a {
+    border: 1px solid black;
+    padding: 5px 10px;
+    display: inline-block;
+    width: 100%;
+}
+
+#menu > ul {
+    display: block;
+    cursor: pointer;
+}
